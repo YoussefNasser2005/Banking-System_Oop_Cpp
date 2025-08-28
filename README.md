@@ -34,12 +34,6 @@
 [8] سجل تسجيل الدخول
 [9] تسجيل الخروج
 
----
-
-## 📸 صور من التطبيق  
-(هنا تحط صور الكونسول اللي عندك، مثلاً: ![Main Menu](images/main-menu.png))
-
----
 
 ## 🎯 الهدف من المشروع  
 - التدريب على مبادئ الـ OOP (التغليف، الوراثة، التعددية).  
@@ -86,12 +80,6 @@ It provides a simple console-based interface to manage clients, users, and finan
 [8] Login Register
 [9] Logout
 
----
-
-## 📸 Screenshots  
-(Add your screenshots here, e.g. ![Main Menu](images/main-menu.png))
-
----
 
 ## 🎯 Purpose  
 - Practicing OOP principles (Encapsulation, Inheritance, Polymorphism).  
