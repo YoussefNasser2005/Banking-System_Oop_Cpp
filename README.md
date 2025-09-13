@@ -1,87 +1,102 @@
-# 🏦 نظام إدارة بنك (تطبيق كونسول بلغة C++ مع OOP)
+🏦 نظام إدارة بنك (C++ OOP Console App / تطبيق كونسول بلغة C++ مع OOP)
+📌 نظرة عامة | Overview
 
-## 📌 نظرة عامة  
-مشروع Bank Management System معمول بلغة C++ باستخدام مبادئ البرمجة الكائنية (OOP).  
-النظام بيوفر واجهة كونسول بسيطة لإدارة العملاء والمستخدمين والعمليات البنكية بشكل منظم وسهل.  
+النظام ده بيحاكي عمل البنوك بشكل مبسط باستخدام الكونسول، وبيوفر أدوات لإدارة العملاء، المعاملات المالية، المستخدمين، وكمان العملات.
+This system simulates basic banking operations using a console interface, providing tools to manage clients, financial transactions, users, and currencies.
 
----
+✨ المميزات | Features
+👥 إدارة العملاء | Clients Management
 
-## ✨ المميزات  
-- 👥 إدارة العملاء → إضافة، تعديل، حذف، بحث، وعرض قائمة العملاء.  
-- 💳 المعاملات المالية → إيداع، سحب، تحويل بين الحسابات، وعرض سجل العمليات.  
-- 🔐 إدارة المستخدمين → إضافة مستخدم، تعديل بياناته، حذفه، وعرض المستخدمين.  
-- 📜 تسجيل الدخول → نظام دخول وخروج آمن مع سجل لحركات تسجيل الدخول.  
+إضافة، تعديل، حذف، عرض وبحث عن العملاء.
 
----
+Add, update, delete, list, and search for clients.
 
-## ⚙ طريقة التشغيل  
-1. افتح المشروع في أي IDE يدعم C++ (زي Visual Studio أو Code::Blocks أو CLion).  
-2. اعمل Build للكود.  
-3. شغل البرنامج من الكونسول.  
-4. من خلال القائمة الرئيسية تقدر تختار أي ميزة.  
+💳 المعاملات المالية | Transactions
 
----
+إيداع، سحب، تحويل بين الحسابات، وسجل العمليات.
 
-## 🖥 القائمة الرئيسية
+Deposit, withdraw, transfer between accounts, and view transaction history.
 
-[1] عرض العملاء
-[2] إضافة عميل جديد
-[3] حذف عميل
-[4] تعديل بيانات عميل
-[5] البحث عن عميل
-[6] العمليات المالية
-[7] إدارة المستخدمين
-[8] سجل تسجيل الدخول
-[9] تسجيل الخروج
+🔐 إدارة المستخدمين | Users Management
 
+إضافة مستخدم جديد، تعديل بياناته، حذفه، وعرض المستخدمين.
 
-## 🎯 الهدف من المشروع  
-- التدريب على مبادئ الـ OOP (التغليف، الوراثة، التعددية).  
-- تنظيم الكود باستخدام Classes وتقسيم شاشات.  
-- محاكاة نظام بنكي بشكل مبسط داخل الكونسول.  
+Add new users, update user data, delete users, and list all users.
 
----
+💱 إدارة العملات | Currencies Management
 
----
+عرض جميع العملات المتاحة.
 
-# 🏦 Banking System (C++ OOP Console App)
+تعديل سعر الصرف لأي عملة.
 
-## 📌 Overview  
-A Bank Management System built with C++ using Object-Oriented Programming (OOP) concepts.  
-It provides a simple console-based interface to manage clients, users, and financial transactions.  
+تحويل من عملة إلى أخرى (مثال: 100 USD → 3100 EGP).
 
----
+View all available currencies.
 
-## ✨ Features  
-- 👥 Clients Management → Add, update, delete, find, and list clients.  
-- 💳 Transactions → Deposit, withdraw, transfer, and view transaction history.  
-- 🔐 Users Management → Add, edit, delete, and list users.  
-- 📜 Login System → Secure login, logout, and login activity history.  
+Edit exchange rates.
 
----
+Convert from one currency to another (e.g., 100 USD → 3100 EGP).
 
-## ⚙ How to Run  
-1. Open the project in any C++ IDE (Visual Studio, Code::Blocks, CLion, etc.).  
-2. Build the code.  
-3. Run the console application.  
-4. Navigate through features using the main menu.  
+📜 تسجيل الدخول والخروج | Login & Logout
 
----
+نظام تسجيل دخول آمن بكلمة مرور.
 
-## 🖥 Main Menu
+سجل لعمليات الدخول والخروج.
 
-[1] Show Clients
-[2] Add New Client
-[3] Delete Client
-[4] Update Client Info
-[5] Find Client
-[6] Transactions
-[7] Manage Users
-[8] Login Register
-[9] Logout
+Secure login system with password.
 
+Login and logout activity history.
 
-## 🎯 Purpose  
-- Practicing OOP principles (Encapsulation, Inheritance, Polymorphism).  
-- Writing clean, modular code using classes and separated screens.  
-- Simulating a simplified real-world banking system in a console environment.
+🖥 القائمة الرئيسية | Main Menu
+[1] عرض العملاء | Show Clients
+[2] إضافة عميل جديد | Add New Client
+[3] حذف عميل | Delete Client
+[4] تعديل بيانات عميل | Update Client Info
+[5] البحث عن عميل | Find Client
+[6] العمليات المالية | Transactions
+[7] إدارة المستخدمين | Manage Users
+[8] إدارة العملات 💱 | Manage Currencies
+[9] سجل تسجيل الدخول | Login Register
+[10] تسجيل الخروج | Logout
+
+🧩 البنية الداخلية | Internal Structure
+
+Client Class → يمثل العميل وبياناته. | Represents client and account details.
+
+Transaction Class → يمثل العمليات المالية. | Represents financial transactions.
+
+Currency Class → يمثل العملات وأسعار الصرف. | Represents currencies and exchange rates.
+
+User Class → يمثل المستخدم وصلاحياته. | Represents users and permissions.
+
+BankSystem Class → النظام الأساسي اللي بيربط كل المكونات. | Main system that integrates all components.
+
+📖 مثال تشغيل عملي | Example Scenario
+
+تسجيل الدخول كمستخدم. | Login as a user.
+
+إضافة عميل جديد برقم حساب ورصيد. | Add a new client with account number and balance.
+
+عمل إيداع 2000 جنيه في الحساب. | Deposit 2000 into the account.
+
+الدخول إلى إدارة العملات وتحويل 100 دولار إلى جنيه مصري. | Go to currencies management and convert 100 USD to EGP.
+
+تسجيل الخروج من النظام. | Logout from the system.
+
+🎯 الهدف من المشروع | Purpose
+
+التدريب على مبادئ OOP (التغليف، الوراثة، التعددية).
+
+تنظيم الكود بشكل احترافي وسهل التطوير.
+
+محاكاة نظام بنكي بشكل مبسط.
+
+إضافة إدارة العملات لتقريب النظام أكثر للواقع.
+
+Practice OOP principles (Encapsulation, Inheritance, Polymorphism).
+
+Write clean, maintainable, and modular code.
+
+Simulate a real-world banking system in a simplified way.
+
+Enhance realism by including currency management.
